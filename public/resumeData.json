@@ -1,0 +1,167 @@
+{
+  "main": {
+    "name":"Yichen Li",
+    "occupation":"Web Developer and IT Client Service Technician",
+    "description":"As a recent university graduate with Computer Information Systems major and Business minor of the Mount Royal University, I have a well-rounded background in both CIS and Business, which also helps me to build technical and organizational insights.",
+    "image":"profilepic.jpg",
+    "bio":"I prefer to keep learning, continue challenging myself, and do interesting things that matter. I spend my days with my hands in many different areas of web development from front end (React, HTML, CSS, and Javascript) to back end programming (Node.js, PHP), user experience and visual design. I am also passionate about solving simple or complex software and hardware related problems for my clients/friends as well as coaching them patiently. My abundant energy fuels me in the pursuit of many interests, hobbies, and areas of study. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.",
+    "contactmessage":"*Please use the provided email for sending me a message or testing purpose. Or you can send me an email through your regular email app.",
+    "email": "yli7591@mtroyal.com",
+    "phone": "403-560-2286",
+    "address":{
+      "street":"80 Glamis Dr",
+      "city":"Calgary",
+      "state":"AB",
+      "zip": "T3E 6T7"
+    },
+    "website": "http://www.XXXX.com",
+    "resumedownload":"./resume.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/XXX",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com/XXX",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/XXXX/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/XXXX",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/XXXX",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I'm eager to learn new things and am always interested in playing around with new technologies but these are the ones that have really won me over",
+    "education":[
+      {
+        "school":"Mount Royal University",
+        "degree":"Bachelor of Computer Information Systems",
+        "graduated":"June 2020",
+        "description":"I attended the Mount Royal University starting from 2016. Here I took my Bachelors of Computer Information Systems with a Business Minor and achieved a much more thorough education in the underlying theory, concepts, and real-life projects behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms. Through the courses, I have learned how to solve complex problems and that high-quality results take hard work. Many of my internships have also given me the opportunity to experience situations first hand and taught me how to come up with the best solutions."
+      }
+    ],
+    "work":[
+      {
+        "company":"Husky Energy Inc.",
+        "title":"Infrastructure Service Technician ",
+        "years":"April 2019 - December 2019",
+        "description":["For most of my time at Husky Energy, I have worked as Project Coordinator. Here I have had the chance to dig in and get my hands dirty with all parts of our infrastructure projects. ",
+                      "I have been working with our Application professionals as well as Networking advisors to update more than 1000 legacy servers, which results in increasing 5% efficiency in office production.",
+                      " As well, I have worked extensively with Security team to develop infrastructure build-out strategy and outline project scope.",
+                      "Working for Husky Energy has given me a solid understanding of an organization's infrastructure system and what it takes to keep the things working that we take for granted every day."]
+      },
+      {
+        "company":"Correctional Services Canada – Bowden Institution ",
+        "title":"IT Client Service Technician ",
+        "years":"April 2018 - August 2018",
+        "description":"Working in a public sector such as Correctional Services Canada has real meaning and impact on my life. Here I have delivered direct onsite technical support for 500+ employees, by assisting them to solve hardware and software related problems via telephone, email, ticketing system and in person. While working here, I have Explained technical information in clear terms to non-technical individuals to promote better understanding results in more than 99% satisfaction."
+      },
+      {
+        "company":"Calgary Chinese Culture Centre ",
+        "title":"Manager Assistant  ",
+        "years":"March 2015 - August 2016",
+        "description":"Calgary Chinese Culture Centre is a non-profit organization. While working here, I was skilled in training employees and leveraging organized approaches to handle daily planning, scheduling and customer service requirements. I showed my capabilities of Forward-thinking and industrious with diplomatic communication style focused on maximizing engagement and satisfaction."
+      }
+    ],
+    "skills":[
+      {
+        "name":"React-Redux",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"90%"
+      },
+      {
+        "name":"MongoDB, MySQLS",
+        "level":"80%"
+      },
+      {
+        "name":"Javascript",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"75%"
+      },
+      {
+        "name":"Java",
+        "level":"70%"
+      },
+      {
+        "name":"PHP",
+        "level":"70%"
+      },
+      {
+        "name":"Git",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Yichen Movie Browser",
+        "category":"MERN full-stack movie browsr app",
+        "image":"yichen-movie-browser.PNG",
+        "url":"https://yichen-movie-browser.herokuapp.com/"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based portfolio website",
+        "image":"resume-website.PNG",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"MMC Calgary Learning Center",
+        "category":"A business website for a start-up",
+        "image":"mmccalgary.PNG",
+        "url":"https://www.calgarymmc.com/"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"That Yichen Li must be one of the most brilliant developers and IT supporters I've ever met! He is extremely friendly and responsive, and willing to work through issues as they arise. He may be fresh out of University but has years of job experience, and I am confident that he will be one of your best developers in no time!",
+        "user":"Darren Oxiby"
+      }
+    ]
+  }
+}
