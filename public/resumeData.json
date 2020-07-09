@@ -2,7 +2,7 @@
   "main": {
     "name":"Yichen Li",
     "occupation":"Web Developer and IT Client Service Technician",
-    "description":"As a recent university graduate with Computer Information Systems major and Business minor of the Mount Royal University, I have a well-rounded background in both CIS and Business, which also helps me to build technical and organizational insights.",
+    "description":"As a recent university graduate with Computer Information Systems major and Business minor of Mount Royal University, I have a well-rounded background in both CIS and Business, which also helps me to build technical and organizational insights.",
     "image":"profilepic.jpg",
     "bio":"I prefer to keep learning, continue challenging myself, and do interesting things that matter. I spend my days with my hands in many different areas of web development from front end (React, HTML, CSS, and Javascript) to back end programming (Node.js, PHP), user experience and visual design. I am also passionate about solving simple or complex software and hardware related problems for my clients/friends as well as coaching them patiently. My abundant energy fuels me in the pursuit of many interests, hobbies, and areas of study. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.",
     "contactmessage":"*Please use the provided email for sending me a message or testing purpose. Or you can send me an email through your regular email app.",
@@ -18,34 +18,19 @@
     "resumedownload":"./resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/XXX",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/XXX",
-        "className":"fa fa-google-plus"
+        "name":"github",
+        "url":"https://github.com/lyc2760008",
+        "className":"fa fa-github"
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/XXXX/",
+        "url":"https://www.linkedin.com/in/yichen-li-1ba2621b2/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/XXXX",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/XXXX",
-        "className":"fa fa-github"
+        "name":"facebook",
+        "url":"http://facebook.com/profile.php?id=100002655915928",
+        "className":"fa fa-facebook"
       },
       {
         "name":"skype",
@@ -61,7 +46,7 @@
         "school":"Mount Royal University",
         "degree":"Bachelor of Computer Information Systems",
         "graduated":"June 2020",
-        "description":"I attended the Mount Royal University starting from 2016. Here I took my Bachelors of Computer Information Systems with a Business Minor and achieved a much more thorough education in the underlying theory, concepts, and real-life projects behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms. Through the courses, I have learned how to solve complex problems and that high-quality results take hard work. Many of my internships have also given me the opportunity to experience situations first hand and taught me how to come up with the best solutions."
+        "description":"I attended Mount Royal University starting from 2016. Here I took my Bachelors of Computer Information Systems with a Business Minor and achieved a much more thorough education in the underlying theory, concepts, and real-life projects behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms. Through the courses, I have learned how to solve complex problems and that high-quality results take hard work. Many of my internships have also given me the opportunity to experience situations first hand and taught me how to come up with the best solutions."
       }
     ],
     "work":[
