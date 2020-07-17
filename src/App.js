@@ -39,7 +39,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" id='wraper'>
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
