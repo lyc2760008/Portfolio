@@ -133,6 +133,32 @@
         "image":"university-react-project.jpg",
         "url":"https://yichen--react-project.herokuapp.com/"
       }
+    ],
+    "workProjects": [
+      {
+        "title":"GanjaGurus Map Page",
+        "category":"NextJs full stack web app",
+        "image":"ganjaWeb.jpg",
+        "url":"https://ganjagurus.ca/weed/listings/in/alberta/calgary"
+      },
+      {
+        "title":"GanjaGurus Home Page",
+        "category":"NextJs full stack web app",
+        "image":"ganjaHome.jpg",
+        "url":"https://ganjagurus.ca/"
+      },
+      {
+        "title":"GanjaGurus Product Page",
+        "category":"NextJs full stack web app",
+        "image":"ganjaProducts.jpg",
+        "url":"https://ganjagurus.ca/listings/high-street-cannabis-co-calgary-alberta"
+      },
+      {
+        "title":"GanjaGurus Review Page",
+        "category":"NextJs full stack web app",
+        "image":"ganjaReview.jpg",
+        "url":"https://ganjagurus.ca/listings/high-street-cannabis-co-calgary-alberta/reviews"
+      }
     ]
   },
   "testimonials":{
