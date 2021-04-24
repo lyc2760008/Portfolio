@@ -159,6 +159,32 @@
         "image":"ganjaReview.jpg",
         "url":"https://ganjagurus.ca/listings/high-street-cannabis-co-calgary-alberta/reviews"
       }
+    ],
+    "workProjects2": [
+      {
+        "title":"GanjaGurus Map Page",
+        "category":"React Native Mobile App for both Android and IOS. It is also a full stack project which has similar functionalities with the web app. Please click to see large image.",
+        "image":"ganjaMWeb.jpg",
+        "url":"https://ganjagurus.ca/weed/listings/in/alberta/calgary"
+      },
+      {
+        "title":"GanjaGurus Home Page",
+        "category":"React Native Mobile App for both Android and IOS. It is also a full stack project which has similar functionalities with the web app. Please click to see large image.",
+        "image":"ganjaMHome.jpg",
+        "url":"https://ganjagurus.ca/"
+      },
+      {
+        "title":"GanjaGurus Product Page",
+        "category":"React Native Mobile App for both Android and IOS. It is also a full stack project which has similar functionalities with the web app. Please click to see large image.",
+        "image":"ganjaMProducts.jpg",
+        "url":"https://ganjagurus.ca/listings/high-street-cannabis-co-calgary-alberta"
+      },
+      {
+        "title":"GanjaGurus Review Page",
+        "category":"React Native Mobile App for both Android and IOS. It is also a full stack project which has similar functionalities with the web app. Please click to see large image.",
+        "image":"ganjaMReview.jpg",
+        "url":"https://ganjagurus.ca/listings/high-street-cannabis-co-calgary-alberta/reviews"
+      }
     ]
   },
   "testimonials":{

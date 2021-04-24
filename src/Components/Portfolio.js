@@ -1,16 +1,6 @@
 import React, { Component } from 'react';
 
 class Portfolio extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//         name: '',
-//         email: 'yli7591@mtroyal.ca',
-//         message: '',
-//         disabled: false,
-//         emailSent: null,
-//     }
-// }
   render() {
 
     if(this.props.data){
@@ -18,7 +8,7 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} target="_blank" rel="noopener noreferrer" title={projects.title}>
+            <a href={projects.url} title={projects.title}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -30,26 +20,6 @@ class Portfolio extends Component {
             </a>
           </div>
         </div>
-        
-      })
-
-      var workProjects = this.props.data.workProjects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
-            <a href={projects.url} target="_blank" rel="noopener noreferrer" title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
-          </div>
-        </div>
-        
       })
     }
 
@@ -60,13 +30,8 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Work Related Projects</h1>
+            <h1>Check Out Some of My Works.</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {workProjects}
-            </div>
-
-            <h1>Personal Projects</h1>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
             </div>
