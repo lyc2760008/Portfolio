@@ -63,7 +63,7 @@ export default function Portfolio(props) {
             })}
           </div>
 
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {props.data && props.data.workProjects2 && props.data.workProjects2.map(projects => {
               return <div key={projects.title} className="columns portfolio-item">
                 <div className="item-wrap">
@@ -111,7 +111,7 @@ export default function Portfolio(props) {
               </div>
 
             })}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
