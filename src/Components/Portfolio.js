@@ -1,38 +1,38 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Modal from 'react-modal';
 
-// const customStyles = {
-//   content: {
-//     top: '55%',
-//     left: '50%',
-//     right: 'auto',
-//     bottom: 'auto',
-//     marginRight: '-50%',
-//      transform: 'translate(-50%, -50%)',
-//    // backgroundColor: 'black' 
-//   },
-//   overlay: {
-//     backgroundColor: 'white',
-//     opacity: 1
-//   },
-// }
+const customStyles = {
+  content: {
+    top: '55%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+     transform: 'translate(-50%, -50%)',
+   // backgroundColor: 'black' 
+  },
+  overlay: {
+    backgroundColor: 'white',
+    opacity: 1
+  },
+}
 
 // Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#root')
 
 
 export default function Portfolio(props) {
-  // const [modalIsOpen, setIsOpen] = useState(false);
-  // const [modalImgOpen, setModalImgOpen] = useState('');
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [modalImgOpen, setModalImgOpen] = useState('');
 
-  // function openModal(img) {
-  //   setIsOpen(true);
-  //   setModalImgOpen(img)
-  // }
+  function openModal(img) {
+    setIsOpen(true);
+    setModalImgOpen(img)
+  }
 
-  // function closeModal() {
-  //   setIsOpen(false);
-  // }
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   return (
     <section id="portfolio">
@@ -44,7 +44,7 @@ export default function Portfolio(props) {
           <h1>Work Related Projects</h1>
 
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {props.data && props.data.projects && props.data.projects.map(projects => {
+            {props.data2 && props.data2.projects && props.data2.projects.map(projects => {
               return <div key={projects.title} className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href={projects.url} target="_blank" rel="noopener noreferrer" title={projects.title}>
@@ -63,8 +63,8 @@ export default function Portfolio(props) {
             })}
           </div>
 
-          {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {props.data && props.data.workProjects2 && props.data.workProjects2.map(projects => {
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+            {props.data3 && props.data3.projects && props.data3.projects.map(projects => {
               return <div key={projects.title} className="columns portfolio-item">
                 <div className="item-wrap">
                   <div onClick={()=>openModal(projects.image)} title={projects.title}>
@@ -111,7 +111,7 @@ export default function Portfolio(props) {
               </div>
 
             })}
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

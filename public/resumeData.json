@@ -133,8 +133,10 @@
         "image":"university-react-project.jpg",
         "url":"https://yichen--react-project.herokuapp.com/"
       }
-    ],
-    "workProjects": [
+    ]
+  },
+  "portfolio2":{
+    "projects": [
       {
         "title":"GanjaGurus Map Page",
         "category":"NextJs full stack web app",
@@ -159,8 +161,10 @@
         "image":"ganjaReview.jpg",
         "url":"https://ganjagurus.ca/listings/high-street-cannabis-co-calgary-alberta/reviews"
       }
-    ],
-    "workProjects2": [
+    ]
+  },
+  "portfolio3":{
+    "projects": [
       {
         "title":"GanjaGurus Map Page",
         "category":"React Native Mobile App for both Android and IOS. It is also a full stack project which has similar functionalities with the web app. Please click to see large image.",
