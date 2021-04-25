@@ -110,7 +110,7 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Yichen Movie Browser",
+        "title":"Yichen --- Movie Browser",
         "category":"MERN full-stack movie browsr app",
         "image":"yichen-movie-browser.jpg",
         "url":"https://yichen-movie-browser.herokuapp.com/"
