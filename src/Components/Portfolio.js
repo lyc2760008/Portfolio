@@ -41,10 +41,10 @@ export default function Portfolio(props) {
 
         <div className="twelve columns collapsed">
 
-          {/* <h1>Work Related Projects</h1>
+          <h1>Work Related Projects</h1>
 
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {props.data && props.data.workProjects.map(projects => {
+            {props.data && props.data.workProjects && props.data.workProjects.map(projects => {
               return <div key={projects.title} className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href={projects.url} target="_blank" rel="noopener noreferrer" title={projects.title}>
@@ -64,7 +64,7 @@ export default function Portfolio(props) {
           </div>
 
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {props.data && props.data.workProjects2.map(projects => {
+            {props.data && props.data.workProjects2 && props.data.workProjects2.map(projects => {
               return <div key={projects.title} className="columns portfolio-item">
                 <div className="item-wrap">
                   <div onClick={()=>openModal(projects.image)} title={projects.title}>
@@ -90,7 +90,7 @@ export default function Portfolio(props) {
               </div>
 
             })}
-          </div> */}
+          </div>
 
           <h1>Personal Projects</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
