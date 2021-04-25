@@ -9,10 +9,10 @@
     "email": "yli7591@mtroyal.com",
     "phone": "403-560-2286",
     "address":{
-      "street":"80 Glamis Dr",
+      "street":"Rockyledge View Nw",
       "city":"Calgary",
       "state":"AB",
-      "zip": "T3E 6T7"
+      "zip": "T3G 5Y5"
     },
     "website": "https://yichen-portfolio.herokuapp.com/",
     "resumedownload":"./resume.pdf",
@@ -50,6 +50,15 @@
       }
     ],
     "work":[
+      {
+        "company":"Forgenet Technologies Corp.",
+        "title":"Full Stack Software Developer",
+        "years":"August  2020 - Present",
+        "description":["At Forgenet, I mainly work on a project that includes multiple location based applications. Here, I use ReactJs, NextJs, NodeJs, and NestJs every day for developing our web apps,",
+                      " and I also use React Native to develop mobile apps for both Android and IOS platforms. We use many collaboration tools on day to day basis, such as Jira, BitBucket, Clickup, and Teams etc.",
+                      " As well, I try to keep up with the latest features while maintaining graceful degradation because learning never makes me feel boring!",
+                      " Besides, working with other talented developers in our team is such a great experience, and I feel I am growing everyday in both technology and life experience."]
+      },
       {
         "company":"Husky Energy Inc.",
         "title":"Infrastructure Service Technician ",
