@@ -28,7 +28,7 @@ class App extends Component {
   async componentDidMount() {
     //Fetch data from json file
     try {
-      const url = "/resumeData.json";
+      const url = "./resumeData.json";
       const response = await fetch(url);
       const jsonData = await response.json();
       this.setState({resumeData: jsonData});
