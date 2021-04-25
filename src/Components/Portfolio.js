@@ -1,38 +1,38 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Modal from 'react-modal';
 
-const customStyles = {
-  content: {
-    top: '55%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-     transform: 'translate(-50%, -50%)',
-   // backgroundColor: 'black' 
-  },
-  overlay: {
-    backgroundColor: 'white',
-    opacity: 1
-  },
-}
+// const customStyles = {
+//   content: {
+//     top: '55%',
+//     left: '50%',
+//     right: 'auto',
+//     bottom: 'auto',
+//     marginRight: '-50%',
+//      transform: 'translate(-50%, -50%)',
+//    // backgroundColor: 'black' 
+//   },
+//   overlay: {
+//     backgroundColor: 'white',
+//     opacity: 1
+//   },
+// }
 
 // Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#root')
 
 
 export default function Portfolio(props) {
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const [modalImgOpen, setModalImgOpen] = useState('');
+  // const [modalIsOpen, setIsOpen] = useState(false);
+  // const [modalImgOpen, setModalImgOpen] = useState('');
 
-  function openModal(img) {
-    setIsOpen(true);
-    setModalImgOpen(img)
-  }
+  // function openModal(img) {
+  //   setIsOpen(true);
+  //   setModalImgOpen(img)
+  // }
 
-  function closeModal() {
-    setIsOpen(false);
-  }
+  // function closeModal() {
+  //   setIsOpen(false);
+  // }
 
   return (
     <section id="portfolio">
