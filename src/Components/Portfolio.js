@@ -41,7 +41,7 @@ export default function Portfolio(props) {
 
         <div className="twelve columns collapsed">
 
-          <h1>Work Related Projects ---------</h1>
+          <h1>Work Related Projects</h1>
 
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {props.data2 && props.data2.projects && props.data2.projects.map(projects => {
