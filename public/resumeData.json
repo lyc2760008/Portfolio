@@ -137,10 +137,10 @@
         "url":"https://www.calgarymmc.com/"
       },
       {
-        "title":"React University Project",
-        "category":"Front-end web app with customized RESTful-APIs.",
-        "image":"university-react-project.jpg",
-        "url":"https://yichen--react-project.herokuapp.com/"
+        "title":"Personal Project for After-school Tutoring Services",
+        "category":"MERN Stack Project",
+        "image":"mern-project.jpg",
+        "url":"https://mmc-calgary.herokuapp.com/"
       }
     ]
   },
