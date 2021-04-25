@@ -94,7 +94,7 @@ export default function Portfolio(props) {
 
           <h1>Personal Projects</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-            {props.data && props.data.projects.map(projects => {
+            {props.data && props.data.projects && props.data.projects.map(projects => {
               return <div key={projects.title} className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href={projects.url} target="_blank" rel="noopener noreferrer" title={projects.title}>
