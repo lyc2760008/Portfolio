@@ -34,7 +34,7 @@ class Contact extends Component {
           disabled: true
       });
 
-      Axios.post('https://yichen-portfolio-api.herokuapp.com/api/email', this.state)
+      Axios.post('https://yichen-li-portfolio.herokuapp.com/api/email', this.state)
           .then(res => {
               if(res.data.success) {
                   this.setState({

@@ -14,7 +14,7 @@
       "state":"AB",
       "zip": "T3G 5Y5"
     },
-    "website": "https://yichen-portfolio.herokuapp.com/",
+    "website": "https://yichen-li-portfolio.herokuapp.com/",
     "resumedownload":"./resume.pdf",
     "social":[
       {
@@ -128,7 +128,7 @@
         "title":"Resume Website",
         "category":"A React based portfolio website",
         "image":"resume-website.jpg",
-        "url":"https://yichen-portfolio.herokuapp.com/"
+        "url":"https://yichen-li-portfolio.herokuapp.com/"
       },
       {
         "title":"MMC Calgary",
